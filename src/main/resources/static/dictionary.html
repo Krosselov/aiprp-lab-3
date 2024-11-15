@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Словарь</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="#aaccff">
+<font color="green" size="10">Форма для работы со словарем</font>
+<br><br>
+<form name="frm" method="get" action="MyServlet">
+    <font color="blue" size="6">Введите слово:</font>
+    <input type="text" name="txt" value=""/>
+    <br><br>
+
+    <font color="blue" size="6">Выберите направление перевода:</font>
+    <select name="direction">
+        <option value="ru_to_en">С русского на английский</option>
+        <option value="en_to_ru">С английского на русский</option>
+    </select>
+    <br><br>
+
+    <font color="blue" size="6">Перевод:</font>
+    <input type="text" name="trans" value=""/>
+    <br>
+    <h4>Кликни здесь для получения перевода :</h4>
+    <input type="submit" value="Перевести"/>
+</form>
+</body>
+</html>
